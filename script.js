@@ -1,4 +1,5 @@
 
+
 // Wait for the document to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch server list contents from the PHP script
@@ -37,4 +38,14 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch((error) => {
             console.error("Error fetching server list:", error);
         });
+
+    loading_screen=document.getElementById("loading")
+    loading_screen.remove()
+
+
+
+
+    
+
 });
+

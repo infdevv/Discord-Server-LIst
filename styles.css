@@ -2,7 +2,7 @@
 .loading-screen {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     position: fixed;
     top: 0;
     left: 0;
@@ -51,4 +51,52 @@ body{
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
+    z-index: 0;
+}
+
+/* Reset some default styles for better consistency */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the title bar */
+.title-bar {
+    background-color: #333; /* Background color for the title bar */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding at the top and bottom */
+    display: flex; /* Use flexbox to position elements horizontally */
+    justify-content: space-between; /* Space between the elements */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style the profile picture */
+.profile-picture img {
+    width: 40px; 
+    border-radius: 50%; /* Make the image circular */
+    margin-left: 20px; /* Add some spacing from the left edge */
+}
+
+/* Style the title text */
+.title {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Make the text bold */
 }

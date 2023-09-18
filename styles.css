@@ -44,9 +44,11 @@ body{
     background-color: lightskyblue;
 }
 
-server_div{
-    background-color: grey;
+/* Add server div style */
+.server-div {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
     border-radius: 5px;
-    height: 500px;
-    width: 500px;
+    padding: 20px;
+    margin: 10px;
 }
